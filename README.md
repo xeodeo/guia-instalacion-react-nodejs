@@ -44,8 +44,6 @@ Descargar la versión **LTS (recomendada)**.
 
 ![Descargar Node](./assets/node-descarga.png)
 
-![pagina-oficial-nodejs](./assets/nodejs-official-site.png)
-
 ---
 
 ### 🔹 2. Ejecutar instalador
@@ -56,15 +54,11 @@ Descargar la versión **LTS (recomendada)**.
 
 ![Instalador Node](./assets/node-instalador.png)
 
-![node-installer-steps](./assets/node-installer-steps.png)
-
 ---
 
 # 🟨 Verificar instalación
 
 Ejecutar en la terminal:
-
-![terminal](./assets/terminal.png)
 
 ```bash
 node -v
@@ -80,7 +74,7 @@ v20.xx.xx
 
 Si ves versiones → Node quedó instalado correctamente 🎉
 
-![node-version-ok](./assets/node-version-ok.png)
+![terminal](./assets/terminal.png)
 
 ---
 
