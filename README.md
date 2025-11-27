@@ -117,3 +117,98 @@ npm install
 ![npm-install](./assets/npm-install.png)
 
 ---
+
+# 🟥 Iniciar proyecto React
+
+Ejecuta el siguiente comando para iniciar la aplicación en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+La salida esperada será similar a esta:
+
+```
+  VITE vX.X.X  ready in XXX ms
+
+  ➜  Local:   http://localhost:5173/
+```
+
+Tu aplicación estará disponible en:
+
+[http://localhost:5173/](http://localhost:5173/)
+
+![browser-localhost](./assets/react-app-browser.png)
+
+---
+
+# 🟪 Estructura del proyecto
+
+La estructura básica luego de la instalación será similar a la siguiente:
+
+```
+mi-app-react/
+│── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── assets/
+│── index.html
+│── package.json
+│── vite.config.js
+```
+
+![estructura-proyecto](./assets/folder-structure.png)
+
+---
+
+# 🟫 Extensiones recomendadas para VSCode
+
+| Extensión               | ¿Para qué sirve?           |
+|-------------------------|----------------------------|
+| ES7+ React Snippets     | Atajos de código React     |
+| Prettier                | Formato automático         |
+| ESLint                  | Buenas prácticas           |
+| Auto Import             | Importaciones automáticas  |
+
+![vscode-extensions](./assets/vscode-extensions.png)
+
+---
+
+# ❗ Errores comunes y soluciones
+
+### ❌ Error: "node no se reconoce como un comando"
+
+✔ Reiniciar la terminal  
+✔ Reinstalar Node habilitando “Add to PATH”
+
+![error-path](./assets/error-path.png)
+
+### ❌ Error de permisos en Linux/Mac
+
+Si tienes problemas de permisos al instalar paquetes globales, usa:
+
+```bash
+sudo npm install -g vite
+```
+
+![error-permisos](./assets/error-permisos-linux.png)
+
+### ❌ Error: "Port already in use"
+
+Otra aplicación está usando el puerto.  
+Puedes cambiar el puerto así:
+
+```bash
+npm run dev -- --port=3000
+```
+
+![error-port](./assets/error-port.png)
+
+---
+
+# 👨‍💻 Autor
+
+**Tu Nombre Aquí**  
+Repositorio oficial: [https://github.com/xeodeo/guia-instalacion-react-nodejs](https://github.com/xeodeo/guia-instalacion-react-nodejs)
+
+![github-logo](./assets/github-logo.png)
