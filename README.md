@@ -82,104 +82,41 @@ Si ves versiones → Node quedó instalado correctamente 🎉
 
 ### 🔹 1. Crear el proyecto
 
+Ejecuta el siguiente comando en la terminal:
+
 ```bash
 npm create vite@latest mi-app-react --template react
 ```
 
+Durante el proceso interactivo, el instalador de Vite te hará varias preguntas en la terminal. Debes seleccionar las siguientes opciones:
+
+1. **Nombre del proyecto:**  
+   Escribe el nombre de tu proyecto (por ejemplo, `mi-app-react`) y presiona Enter.
+
+2. **Framework:**  
+   Elige la opción `React` usando las teclas de flecha y presiona Enter.
+
+   ![seleccion-react](./assets/vite-step-react.png)
+
+3. **Variante:**  
+   Elige `TypeScript` (recomendado) usando las teclas de flecha, luego presiona Enter.
+
+   ![seleccion-typescript](./assets/vite-step-ts.png)
+
+Esto generará la estructura básica de un proyecto React con Vite y TypeScript.
+
 ![create-vite](./assets/vite-create.gif)
 
+---
+
 ### 🔹 2. Instalar dependencias
+
+Accede a la carpeta del nuevo proyecto e instala las dependencias:
 
 ```bash
 cd mi-app-react
 npm install
 ```
-
 ![npm-install](./assets/npm-install.png)
 
 ---
-
-# 🟥 Iniciar proyecto React
-
-Ejecutar:
-
-```bash
-npm run dev
-```
-
-Salida esperada:
-
-Tu aplicación estará disponible en:
-
-[http://localhost:5173/](http://localhost:5173/)
-
-![browser-localhost](./assets/react-app-browser.png)
-
----
-
-# 🟪 Estructura del proyecto
-
-```
-mi-app-react/
-│── src/
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── assets/
-│── index.html
-│── package.json
-│── vite.config.js
-```
-
-![estructura-proyecto](./assets/folder-structure.png)
-
----
-
-# 🟫 Extensiones recomendadas para VSCode
-
-| Extensión                | ¿Para qué sirve?           |
-|--------------------------|----------------------------|
-| ES7+ React Snippets      | Atajos de código React     |
-| Prettier                 | Formato automático         |
-| ESLint                   | Buenas prácticas           |
-| Auto Import              | Importaciones automáticas  |
-
-![vscode-extensions](./assets/vscode-extensions.png)
-
----
-
-# ❗ Errores comunes y soluciones
-
-### ❌ Error: "node no se reconoce como un comando"
-
-![error-path](./assets/error-path.png)
-
-✔ Reiniciar la terminal  
-✔ Reinstalar Node habilitando “Add to PATH”
-
-### ❌ Error de permisos en Linux/Mac
-
-```bash
-sudo npm install -g vite
-```
-
-![error-permisos](./assets/error-permisos-linux.png)
-
-### ❌ Error: "Port already in use"
-
-Otra aplicación está usando el puerto.  
-Puedes cambiar el puerto así:
-
-```bash
-npm run dev -- --port=3000
-```
-
-![error-port](./assets/error-port.png)
-
----
-
-# 👨‍💻 Autor
-
-**Tu Nombre Aquí**  
-Repositorio oficial: [https://github.com/xeodeo/guia-instalacion-react-nodejs](https://github.com/xeodeo/guia-instalacion-react-nodejs)
-
-![github-logo](./assets/github-logo.png)
