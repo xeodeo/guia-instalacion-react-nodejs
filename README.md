@@ -29,8 +29,6 @@ Node.js es un entorno de ejecución de JavaScript basado en el motor V8 de Googl
 
 ![NodeJS](./assets/node-logo.png)
 
-![nodejs-v8](./assets/node-v8.png)
-
 ---
 
 # 🟩 Instalar Node.js
