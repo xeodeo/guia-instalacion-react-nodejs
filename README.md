@@ -9,7 +9,7 @@ Todo explicado paso a paso, con imágenes y comandos listos para copiar.
 ### 🔹 Paso 1: Descargar Node.js
 Descarga la versión LTS desde la página oficial:
 
-👉 https://nodejs.org/
+👉 https://nodejs.org/es/download
 
 ![Descargar Node.js](./assets/node-descarga.png)
 
