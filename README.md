@@ -90,15 +90,12 @@ npm create vite@latest mi-app-react --template react
 
 Durante el proceso interactivo, el instalador de Vite te hará varias preguntas en la terminal. Debes seleccionar las siguientes opciones:
 
-1. **Nombre del proyecto:**  
-   Escribe el nombre de tu proyecto (por ejemplo, `mi-app-react`) y presiona Enter.
-
-2. **Framework:**  
+1. **Framework:**  
    Elige la opción `React` usando las teclas de flecha y presiona Enter.
 
    ![seleccion-react](./assets/vite-step-react.png)
 
-3. **Variante:**  
+2. **Variante:**  
    Elige `TypeScript` (recomendado) usando las teclas de flecha, luego presiona Enter.
 
    ![seleccion-typescript](./assets/vite-step-ts.png)
