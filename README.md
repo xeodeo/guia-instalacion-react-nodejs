@@ -1,4 +1,5 @@
-# 🚀 Guía de Instalación de Node.js y React  
+# 🚀 Guía de Instalación de Node.js y React
+
 Bienvenido a esta guía completa para instalar **Node.js**, configurar el entorno y crear tu primer proyecto en **React**.  
 Perfecta para principiantes, estudiantes y desarrolladores que quieran empezar rápido.
 
@@ -18,6 +19,7 @@ Perfecta para principiantes, estudiantes y desarrolladores que quieran empezar r
 ---
 
 # 🟦 ¿Qué es Node.js?
+
 Node.js es un entorno de ejecución de JavaScript basado en el motor V8 de Google Chrome que permite:
 
 - Ejecutar JavaScript fuera del navegador  
@@ -27,18 +29,22 @@ Node.js es un entorno de ejecución de JavaScript basado en el motor V8 de Googl
 
 ![NodeJS](./assets/node-logo.png)
 
+![nodejs-v8](./assets/node-v8.png)
+
 ---
 
 # 🟩 Instalar Node.js
 
 ### 🔹 1. Descargar Node
-Ve a la página oficial:
+Ir a la página oficial:
 
 👉 https://nodejs.org/
 
-Descarga la versión **LTS (recomendada)**.
+Descargar la versión **LTS (recomendada)**.
 
 ![Descargar Node](./assets/node-descarga.png)
+
+![pagina-oficial-nodejs](./assets/nodejs-official-site.png)
 
 ---
 
@@ -46,16 +52,142 @@ Descarga la versión **LTS (recomendada)**.
 1. Abrir archivo descargado  
 2. Aceptar términos  
 3. Mantener configuración por defecto  
-4. Finalizar
+4. Finalizar la instalación
 
 ![Instalador Node](./assets/node-instalador.png)
+
+![node-installer-steps](./assets/node-installer-steps.png)
 
 ---
 
 # 🟨 Verificar instalación
 
-Ejecuta en tu terminal:
+Ejecutar en la terminal:
+
+![terminal](./assets/terminal.png)
 
 ```bash
 node -v
 npm -v
+```
+
+Obtendrás algo como:
+
+```
+v20.xx.xx
+10.xx.xx
+```
+
+Si ves versiones → Node quedó instalado correctamente 🎉
+
+![node-version-ok](./assets/node-version-ok.png)
+
+---
+
+# 🟧 Crear proyecto React con Vite
+
+⭐ **Método recomendado** (más rápido y moderno que Create React App)
+
+### 🔹 1. Crear el proyecto
+
+```bash
+npm create vite@latest mi-app-react --template react
+```
+
+![create-vite](./assets/vite-create.gif)
+
+### 🔹 2. Instalar dependencias
+
+```bash
+cd mi-app-react
+npm install
+```
+
+![npm-install](./assets/npm-install.png)
+
+---
+
+# 🟥 Iniciar proyecto React
+
+Ejecutar:
+
+```bash
+npm run dev
+```
+
+Salida esperada:
+
+Tu aplicación estará disponible en:
+
+[http://localhost:5173/](http://localhost:5173/)
+
+![browser-localhost](./assets/react-app-browser.png)
+
+---
+
+# 🟪 Estructura del proyecto
+
+```
+mi-app-react/
+│── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── assets/
+│── index.html
+│── package.json
+│── vite.config.js
+```
+
+![estructura-proyecto](./assets/folder-structure.png)
+
+---
+
+# 🟫 Extensiones recomendadas para VSCode
+
+| Extensión                | ¿Para qué sirve?           |
+|--------------------------|----------------------------|
+| ES7+ React Snippets      | Atajos de código React     |
+| Prettier                 | Formato automático         |
+| ESLint                   | Buenas prácticas           |
+| Auto Import              | Importaciones automáticas  |
+
+![vscode-extensions](./assets/vscode-extensions.png)
+
+---
+
+# ❗ Errores comunes y soluciones
+
+### ❌ Error: "node no se reconoce como un comando"
+
+![error-path](./assets/error-path.png)
+
+✔ Reiniciar la terminal  
+✔ Reinstalar Node habilitando “Add to PATH”
+
+### ❌ Error de permisos en Linux/Mac
+
+```bash
+sudo npm install -g vite
+```
+
+![error-permisos](./assets/error-permisos-linux.png)
+
+### ❌ Error: "Port already in use"
+
+Otra aplicación está usando el puerto.  
+Puedes cambiar el puerto así:
+
+```bash
+npm run dev -- --port=3000
+```
+
+![error-port](./assets/error-port.png)
+
+---
+
+# 👨‍💻 Autor
+
+**Tu Nombre Aquí**  
+Repositorio oficial: [https://github.com/xeodeo/guia-instalacion-react-nodejs](https://github.com/xeodeo/guia-instalacion-react-nodejs)
+
+![github-logo](./assets/github-logo.png)
