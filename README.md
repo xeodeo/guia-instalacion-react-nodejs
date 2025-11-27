@@ -138,7 +138,9 @@ Tu aplicación estará disponible en:
 
 [http://localhost:5173/](http://localhost:5173/)
 
+![browser-localhost](./assets/react-app-console.png)
 ![browser-localhost](./assets/react-app-browser.png)
+
 
 ---
 
@@ -180,35 +182,3 @@ mi-app-react/
 
 ✔ Reiniciar la terminal  
 ✔ Reinstalar Node habilitando “Add to PATH”
-
-![error-path](./assets/error-path.png)
-
-### ❌ Error de permisos en Linux/Mac
-
-Si tienes problemas de permisos al instalar paquetes globales, usa:
-
-```bash
-sudo npm install -g vite
-```
-
-![error-permisos](./assets/error-permisos-linux.png)
-
-### ❌ Error: "Port already in use"
-
-Otra aplicación está usando el puerto.  
-Puedes cambiar el puerto así:
-
-```bash
-npm run dev -- --port=3000
-```
-
-![error-port](./assets/error-port.png)
-
----
-
-# 👨‍💻 Autor
-
-**Tu Nombre Aquí**  
-Repositorio oficial: [https://github.com/xeodeo/guia-instalacion-react-nodejs](https://github.com/xeodeo/guia-instalacion-react-nodejs)
-
-![github-logo](./assets/github-logo.png)
