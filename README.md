@@ -1,33 +1,58 @@
 # 🚀 Guía de Instalación de Node.js y React  
 Bienvenido a esta guía completa para instalar **Node.js**, configurar el entorno y crear tu primer proyecto en **React**.  
-Todo explicado paso a paso, con imágenes y comandos listos para copiar.
+Perfecta para principiantes, estudiantes y desarrolladores que quieran empezar rápido.
 
 ---
 
-## 📦 1. Instalación de Node.js
-
-### 🔹 Paso 1: Descargar Node.js
-Descarga la versión LTS desde la página oficial:
-
-👉 https://nodejs.org/es/download
-
-![Descargar Node.js](./assets/node-descarga.png)
+## 📑 Tabla de Contenidos
+1. [¿Qué es Node.js?](#-qué-es-nodejs)
+2. [Instalar Node.js](#-instalar-nodejs)
+3. [Verificar instalación](#-verificar-instalación)
+4. [Crear proyecto React con Vite](#-crear-proyecto-react-con-vite)
+5. [Iniciar proyecto React](#-iniciar-proyecto-react)
+6. [Estructura del proyecto](#-estructura-del-proyecto)
+7. [Extensiones para VSCode](#-extensiones-recomendadas-para-vscode)
+8. [Errores comunes y soluciones](#-errores-comunes-y-soluciones)
+9. [Autor](#-autor)
 
 ---
 
-### 🔹 Paso 2: Ejecutar el instalador
-Sigue estos pasos:
+# 🟦 ¿Qué es Node.js?
+Node.js es un entorno de ejecución de JavaScript basado en el motor V8 de Google Chrome que permite:
 
-1. Doble clic en el instalador  
+- Ejecutar JavaScript fuera del navegador  
+- Crear servidores  
+- Manejar dependencias con NPM  
+- Desarrollar aplicaciones modernas (React, Vite, Next.js)
+
+![NodeJS](./assets/node-logo.png)
+
+---
+
+# 🟩 Instalar Node.js
+
+### 🔹 1. Descargar Node
+Ve a la página oficial:
+
+👉 https://nodejs.org/
+
+Descarga la versión **LTS (recomendada)**.
+
+![Descargar Node](./assets/node-descarga.png)
+
+---
+
+### 🔹 2. Ejecutar instalador
+1. Abrir archivo descargado  
 2. Aceptar términos  
-3. Mantener opciones por defecto  
-4. Finalizar instalación
+3. Mantener configuración por defecto  
+4. Finalizar
 
 ![Instalador Node](./assets/node-instalador.png)
 
 ---
 
-### 🔹 Paso 3: Verificar instalación
+# 🟨 Verificar instalación
 
 Ejecuta en tu terminal:
 
